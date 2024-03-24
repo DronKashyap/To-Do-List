@@ -1,0 +1,70 @@
+.gradient {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+  display: grid;
+  place-items: center;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ h1{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+.container{
+  background:white;
+  opacity: 90%;
+  height: 200px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 10px; 
+  display: grid;
+  place-items: center;
+}
+
+.containerbottom{
+  display: flex;
+}
+
+.button{
+  background-color: orangered;
+  padding: 10px 30px 10px 30px;
+  margin-left: -30px;
+  border-radius: 20px;
+  border-style: hidden;
+  color: white;
+  font-size: medium;
+  transition: 0.1s linear;
+}
+
+.button:hover{
+  scale: 1.2;
+}
+
+.inputfield{
+  font-size: x-large;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: hidden;
+  background-color: whitesmoke;
+  width:350px;
+}
+
+.TaskContainer{
+  list-style: none;
+  font-size: 30px;
+}
